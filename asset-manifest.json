@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/david-henry-portfolio/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/david-henry-portfolio/static/js/main.088d3603.chunk.js",
+    "main.js.map": "/david-henry-portfolio/static/js/main.088d3603.chunk.js.map",
+    "runtime-main.js": "/david-henry-portfolio/static/js/runtime-main.eef22baa.js",
+    "runtime-main.js.map": "/david-henry-portfolio/static/js/runtime-main.eef22baa.js.map",
+    "static/js/2.9717e9bd.chunk.js": "/david-henry-portfolio/static/js/2.9717e9bd.chunk.js",
+    "static/js/2.9717e9bd.chunk.js.map": "/david-henry-portfolio/static/js/2.9717e9bd.chunk.js.map",
+    "static/js/3.4a850c06.chunk.js": "/david-henry-portfolio/static/js/3.4a850c06.chunk.js",
+    "static/js/3.4a850c06.chunk.js.map": "/david-henry-portfolio/static/js/3.4a850c06.chunk.js.map",
+    "index.html": "/david-henry-portfolio/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/david-henry-portfolio/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.9717e9bd.chunk.js.LICENSE.txt": "/david-henry-portfolio/static/js/2.9717e9bd.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/david-henry-portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eef22baa.js",
+    "static/js/2.9717e9bd.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.088d3603.chunk.js"
+  ]
+}
