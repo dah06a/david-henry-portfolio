@@ -1,23 +1,32 @@
 import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap';
+import { withRouter } from 'react-router-dom';
 import './CustomNavbar.css';
 
 function CustomNavbar(props) {
     return (
         <Navbar collapseOnSelect expand="md" sticky="top" bg="light" className="custom-navbar">
-			<Navbar.Toggle aria-controls="collapse-toggle" />
-			<Navbar.Collapse id="collapse-toggle">
-				<Nav variant="tabs" className="m-auto">
-					<Nav.Link href="#" eventKey="story">Story</Nav.Link>
-					<Nav.Link href="#" eventKey="skills">Skills</Nav.Link>
-					<Nav.Link href="#" eventKey="portfolio">Portfolio</Nav.Link>
-					<Nav.Link href="#" eventKey="resume">Resume</Nav.Link>
-					<Nav.Link href="#" eventKey="contact">Contact</Nav.Link>
-				</Nav>
-			</Navbar.Collapse>
 
+			<Navbar.Toggle aria-controls="collapse-toggle" />
+
+			<Navbar.Brand href="/">David Henry</Navbar.Brand>
+
+			<Navbar.Collapse id="collapse-toggle">
+
+				<Nav className="m-auto" variant="tabs" activeKey={props.location.pathname}>
+					<Nav.Link href="/about" eventKey="/about">About</Nav.Link>
+					<Nav.Link href="/skills" eventKey="/skills">Skills</Nav.Link>
+					<Nav.Link href="/projects" eventKey="/projects">Projects</Nav.Link>
+					<Nav.Link href="/resume" eventKey="/resume">Resume</Nav.Link>
+				</Nav>
+
+				<Nav>
+					<Nav.Link href="/contact" eventKey="/contact">Contact</Nav.Link>
+				</Nav>
+
+			</Navbar.Collapse>
 		</Navbar>
     );
 }
 
-export default CustomNavbar;
+export default withRouter(CustomNavbar);

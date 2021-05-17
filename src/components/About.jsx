@@ -4,7 +4,7 @@ import './About.css';
 function About(props) {
     return (
         <div className="about">
-            Hello
+            About
         </div>
     );
 }

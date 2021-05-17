@@ -1,27 +1,27 @@
 import CustomNavbar from './components/CustomNavbar';
-import SidePanel from './components/SidePanel';
-import { Container, Row, Col } from 'react-bootstrap';
-import Backdrop from './components/Backdrop';
+import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import { Switch, Route, withRouter } from "react-router-dom";
 import './App.css';
+
+const NavbarWithRouter = withRouter(CustomNavbar);
 
 function App() {
 	return (
 		<div className="App">
-			<CustomNavbar />
-			<Container fluid>
-				<Row>
-					<SidePanel />
-					<Col md={{ span: 9, offset: 3 }} className="main-content">
-						<Backdrop />
-						<About />
-						<Skills />
-						<Portfolio />
-					</Col>
-				</Row>
-			</Container>
+			<NavbarWithRouter />
+			<Switch>
+				<Route path='/about' render={(props) => <About {...props} />} />
+				<Route path='/skills' render={(props) => <Skills {...props} />} />
+				<Route path='/projects' render={(props) => <Projects {...props} />} />
+				<Route path='/resume' render={(props) => <Resume {...props} />} />
+				<Route path='/contact' render={(props) => <Contact {...props} />} />
+				<Route path='/' render={(props) => <Home {...props} />} />
+			</Switch>
 		</div>
 	);
 }
