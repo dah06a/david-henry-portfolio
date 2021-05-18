@@ -13,15 +13,19 @@ const NavbarWithRouter = withRouter(CustomNavbar);
 function App() {
 	return (
 		<div className="App">
-			<NavbarWithRouter />
-			<Switch>
-				<Route path='/about' render={(props) => <About {...props} />} />
-				<Route path='/skills' render={(props) => <Skills {...props} />} />
-				<Route path='/projects' render={(props) => <Projects {...props} />} />
-				<Route path='/resume' render={(props) => <Resume {...props} />} />
-				<Route path='/contact' render={(props) => <Contact {...props} />} />
-				<Route path='/' render={(props) => <Home {...props} />} />
-			</Switch>
+			<header>
+				<NavbarWithRouter />
+			</header>
+			<main>
+				<Switch>
+					<Route path='/about' render={(props) => <About {...props} />} />
+					<Route path='/skills' render={(props) => <Skills {...props} />} />
+					<Route path='/projects' render={(props) => <Projects {...props} />} />
+					<Route path='/resume' render={(props) => <Resume {...props} />} />
+					<Route path='/contact' render={(props) => <Contact {...props} />} />
+					<Route path='/' render={(props) => <Home {...props} />} />
+				</Switch>
+			</main>
 		</div>
 	);
 }

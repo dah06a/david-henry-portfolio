@@ -1,4 +1,29 @@
 .custom-navbar {
-    height: 10vh;
-    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.custom-navbar a {
+    width: 120px;
+    font-size: large;
+    font-weight: bold;
+    color: cadetblue !important;
+    box-shadow: 2px 1px 1px grey;
+}
+
+.custom-navbar a:hover {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Architects Daughter';
+    background-color: whitesmoke;
+    color:lightseagreen !important;
+    box-shadow: inset 5px 3px 3px grey;
+}
+
+.custom-navbar a.active {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Architects Daughter';
+    background-color: whitesmoke;
+    color:lightseagreen !important;
+    box-shadow: inset 5px 3px 3px grey;
 }

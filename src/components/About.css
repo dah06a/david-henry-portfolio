@@ -1,4 +1,21 @@
 .about {
-    height: 100vh;
-    background-color: orange;
+    text-align: left;
+}
+
+.about-title {
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #ffffff;
+    background-image: linear-gradient(35deg, lightseagreen, #d7e1ec);
+}
+
+.about p {
+    text-indent: 50px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px !important;
 }
