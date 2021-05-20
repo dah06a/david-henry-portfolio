@@ -5,6 +5,8 @@ import HTMLCover from '../images/html-cover.png';
 import ACUBanner from '../images/acu-banner.png';
 import TeacherCertificate from '../images/teacher-certificate.png';
 import EduSchedule from '../images/edu-schedule.png';
+import ReactBanner from '../images/react-banner.jpeg';
+import Nucamp from '../images/nucamp.jpg';
 import './About.css';
 
 function About(props) {
@@ -112,13 +114,54 @@ function About(props) {
                             decided to try making an app.  It took a long time, and looking back, the code isn’t very pretty, but
                             eventually I was successful!  I learned enough of the Swift programming language and the XCode software
                             platform to create EduSchedule, a simple iPhone app to help students and teachers keep track of their crazy
-                            class schedules.  You can find it on the Apple app store, just search for EduSchedule!
+                            class schedules.  <a href="https://apps.apple.com/us/app/edu-schedule/id1486131627">You can find EduSchedule
+                            and check it out here!</a>
                         </p>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={8} className="m-auto">
                         <Image src={EduSchedule} className="about-images edu-schedule-img" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={8} className="m-auto">
+                        <p>
+                            After making an App, I knew that I could go further and create more.  A developer friend of mine recommended
+                            that I start learning React and wanted me to help build a front-end for a project.  That was when things
+                            really started getting serious.  I spent the better part of a year learning the React framework and bringing
+                            all of my learning together all of my learning so far.  I was able to create an MVP for the project front-end,
+                            but everything came to halt during the pandemic.
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={8} className="m-auto">
+                        <Image src={ReactBanner} className="about-images react-banner-img" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={8} className="m-auto">
+                        <p>
+                            It was time to make a real attempt at changing my future.  During the pandemic, I decided to enroll in the
+                            NuCamp Full Stack Bootcamp.  I studied and worked to become proficient with many development tools like
+                            Node.js, Bootstrap, JQuery, React, React-Native, Express, MongoDB, Mongoose, and others.  I have since
+                            graduation, and I am finally ready to make the leap.
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={8} className="m-auto">
+                        <Image src={Nucamp} className="about-images nucamp-img" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={8} className="m-auto">
+                        <p>
+                        I love to learn, and I am passionate about coding and problem solving.  I dedicate myself fully to my endeavors
+                        and I am confident in my readiness to change careers and start working in the development field.  Being a teacher
+                        has taught me that, if I can succeed at teaching math to a room full of teenagers, I can do just about anything.
+                        </p>
                     </Col>
                 </Row>
             </Container>

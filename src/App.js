@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import { Switch, Route, withRouter } from "react-router-dom";
 import './App.css';
 
@@ -26,6 +27,9 @@ function App() {
 					<Route path='/' render={(props) => <Home {...props} />} />
 				</Switch>
 			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 }
