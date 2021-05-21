@@ -5,13 +5,13 @@ import './CustomNavbar.css';
 
 function CustomNavbar(props) {
     return (
-        <Navbar collapseOnSelect expand="md" sticky="top" bg="light" className="custom-navbar">
+        <Navbar collapseOnSelect expand="md" bg="light" className="custom-navbar">
 
 			<Navbar.Toggle aria-controls="collapse-toggle" />
 
 			<Navbar.Brand href="/">David Henry</Navbar.Brand>
 
-			<Navbar.Collapse id="collapse-toggle">
+			<Navbar.Collapse sticky="top" id="collapse-toggle">
 
 				<Nav className="m-auto" activeKey={props.location.pathname}>
 					<Nav.Link href="/about" eventKey="/about">About</Nav.Link>
@@ -21,7 +21,7 @@ function CustomNavbar(props) {
 				</Nav>
 
 				<Nav>
-					<Nav.Link href="/contact" eventKey="/contact" style={{color: '#b26720'}}>Contact</Nav.Link>
+					<Nav.Link href="/contact" eventKey="/contact">Contact</Nav.Link>
 				</Nav>
 
 			</Navbar.Collapse>

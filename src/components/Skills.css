@@ -1,4 +1,16 @@
 .skills {
-    height: 100vh;
-    background-color: peru;
+    text-align: center;
+}
+
+.skills-title {
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 50px;
+    color: white;
+    background-color: #ffffff;
+    background-image: linear-gradient(35deg, lightseagreen, #d7e1ec);
+}
+
+.list-title-item {
+    width: 100%;
 }
