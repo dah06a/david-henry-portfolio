@@ -5,7 +5,7 @@ import './CustomNavbar.css';
 
 function CustomNavbar(props) {
     return (
-        <Navbar collapseOnSelect expand="md" bg="light" className="custom-navbar">
+        <Navbar collapseOnSelect expand="md" bg="light" sticky="top" className="custom-navbar">
 
 			<Navbar.Toggle aria-controls="collapse-toggle" />
 

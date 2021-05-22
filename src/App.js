@@ -14,9 +14,7 @@ const NavbarWithRouter = withRouter(CustomNavbar);
 function App() {
 	return (
 		<div className="App">
-			<header>
 				<NavbarWithRouter />
-			</header>
 			<main>
 				<Switch>
 					<Route path='/about' render={(props) => <About {...props} />} />

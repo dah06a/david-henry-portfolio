@@ -1,7 +1,11 @@
 .footer {
     height: 20vh;
-    background-color: #ffffff;
-    background-image: linear-gradient(35deg, lightseagreen, #d7e1ec);
+    color: white;
+    background-color: #233e8b;
+}
+
+.footer a {
+    color: white;
 }
 
 .contact-btn {
