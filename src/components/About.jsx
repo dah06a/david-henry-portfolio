@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import CodeBackdrop from '../images/code-backdrop.jpg';
-import HTMLCover from '../images/html-cover.png';
+import HTMLCover from '../images/html-banner.png';
 import ACUBanner from '../images/acu-banner.png';
 import TeacherCertificate from '../images/teacher-certificate.png';
 import EduSchedule from '../images/edu-schedule.png';
