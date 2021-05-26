@@ -8,21 +8,7 @@
     color: white;
 }
 
-.contact-btn {
-    width: 50%;
-    margin: auto;
-    font-size: large;
-    font-weight: bold;
-    background-color: white !important;
-    color: cadetblue !important;
-    box-shadow: 2px 1px 1px grey;
-}
-
-.contact-btn:hover {
-    font-size: large;
-    font-weight: bold;
-    font-family: 'Architects Daughter';
-    background-color: whitesmoke;
-    color:lightseagreen !important;
-    box-shadow: inset 5px 3px 3px grey;
+.social-icons {
+    display: flex;
+    justify-content: center;
 }

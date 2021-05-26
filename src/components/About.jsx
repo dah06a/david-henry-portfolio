@@ -19,7 +19,7 @@ function About(props) {
                         <h3 style={{color: "black", marginTop: "50px"}}>My mission is to learn, create, and change my future.</h3>
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">From Teaching to Coding</h4>
                         <p>
@@ -37,7 +37,7 @@ function About(props) {
                         <Image src={CodeBackdrop} className="about-images code-backdrop-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">It Began with a Dragon</h4>
                         <p>
@@ -54,7 +54,7 @@ function About(props) {
                         <Image src={HTMLCover} className="about-images html-cover-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Choosing a Different Path</h4>
                         <p>
@@ -73,7 +73,7 @@ function About(props) {
                         <Image src={ACUBanner} className="about-images acu-banner-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Circling Back</h4>
                         <p>
@@ -92,7 +92,7 @@ function About(props) {
                         <div className="about-images platform-images" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Certified in Computer Science</h4>
                         <p>
@@ -109,7 +109,7 @@ function About(props) {
                         <Image src={TeacherCertificate} className="about-images teacher-certificate-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">My First App</h4>
                         <p>
@@ -129,7 +129,7 @@ function About(props) {
                         <Image src={EduSchedule} className="about-images edu-schedule-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Building in React</h4>
                         <p>
@@ -146,7 +146,7 @@ function About(props) {
                         <Image src={ReactBanner} className="about-images react-banner-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Time For a Bootcamp</h4>
                         <p>
@@ -162,7 +162,7 @@ function About(props) {
                         <Image src={Nucamp} className="about-images nucamp-img" />
                     </Col>
                 </Row>
-                <Row className="mt-5">
+                <Row className="my-3">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Ready To Work</h4>
                         <p>
