@@ -1,11 +1,19 @@
 .home {
-    height: 90vh;
+    height: 100vh;
     position: relative;
+}
+
+@media(max-width: 768px) {
+    .home {
+        height: 50vh;
+        background-image: url('../images/wall-only.jpg');
+        background-size: 180%;
+    }
 }
 
 .home::after {
     content:'';
-    background-image: url('../images//northern-lights.jpg');
+    background-image: url('../images/wall-off-center-portrait.JPG');
     background-size: cover;
     position: absolute;
     top:0px;
@@ -13,10 +21,23 @@
     width:100%;
     height:100%;
     z-index:-1;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
-.content {
-    color: black;
+.mobile-portrait {
+    height: 100vh;
     position: relative;
+}
+
+.mobile-portrait::after {
+    content:'';
+    background-image: url('../images/wall-off-center-portrait-cropped.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    opacity: 0.9;
 }
