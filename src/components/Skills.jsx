@@ -12,7 +12,6 @@ import SqlBanner from '../images/sql-banner.png';
 import NodeBanner from '../images/node-banner.jpg';
 import MongodbBanner from '../images/mongodb-banner.png';
 import MongooseBanner from '../images/mongoose-banner.jpg';
-
 import './Skills.css';
 
 const SkillItem = (props) => {
@@ -88,9 +87,10 @@ class Skills extends Component {
                                 <ListGroup.Item className="list-header-item">JavaScript</ListGroup.Item>
                                 <ListGroup.Item className="list-content-progress" />
                             </ListGroup>
-                            <SkillItem variant='javascript' label='JS ES6 70' now={this.state.progress} max={14}>JS ES6</SkillItem>
+                            <SkillItem variant='javascript' label='JS ES6 60' now={this.state.progress} max={16}>JS ES6</SkillItem>
                             <SkillItem variant='jquery' label=' JQuery40' now={this.state.progress} max={25}>JQuery</SkillItem>
                             <SkillItem variant='react' label='React 60' now={this.state.progress} max={16}>React</SkillItem>
+                            <SkillItem variant='redux' label='Redux 50' now={this.state.progress} max={20}>Redux</SkillItem>
                             <SkillItem variant='info' label='React-Native 50' now={this.state.progress} max={20}>React-Native</SkillItem>
 
                             <ListGroup.Item style={{width: '20%'}}></ListGroup.Item>

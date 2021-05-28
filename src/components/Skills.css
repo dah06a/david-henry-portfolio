@@ -81,6 +81,9 @@
 .progress .bg-react {
     background-color: rgb(86, 170, 255);
 }
+.progress .bg-redux {
+    background-color: rgb(118, 74, 188)
+}
 
 .progress .bg-sql {
     background-color: limegreen;

@@ -6,3 +6,23 @@
     background-color: #ffffff;
     background-image: linear-gradient(35deg, lightseagreen, #233e8b);
 }
+
+.projects-link, .projects-link:hover {
+    text-decoration: none;
+    color: black !important;
+}
+
+.projects-images {
+    height: 30vh;
+}
+
+.projects-card {
+    box-shadow: none;
+    color: inherit;
+    transition: 0.2s ease-in-out;
+}
+
+.projects-card:hover {
+    filter: opacity(0.8);
+    box-shadow: 5px 5px 5px grey;
+}
