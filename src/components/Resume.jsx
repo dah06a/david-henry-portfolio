@@ -4,7 +4,7 @@ import './Resume.css';
 function Resume(props) {
     return (
         <div className="resume">
-            Resume
+            Work in progress...
         </div>
     );
 }
