@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/david-henry-portfolio/static/css/main.8ec2726f.chunk.css",
-    "main.js": "/david-henry-portfolio/static/js/main.4ec58d4f.chunk.js",
-    "main.js.map": "/david-henry-portfolio/static/js/main.4ec58d4f.chunk.js.map",
+    "main.js": "/david-henry-portfolio/static/js/main.d249942a.chunk.js",
+    "main.js.map": "/david-henry-portfolio/static/js/main.d249942a.chunk.js.map",
     "runtime-main.js": "/david-henry-portfolio/static/js/runtime-main.e7be2b60.js",
     "runtime-main.js.map": "/david-henry-portfolio/static/js/runtime-main.e7be2b60.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/david-henry-portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.dd43e679.chunk.js": "/david-henry-portfolio/static/js/2.dd43e679.chunk.js",
-    "static/js/2.dd43e679.chunk.js.map": "/david-henry-portfolio/static/js/2.dd43e679.chunk.js.map",
+    "static/js/2.df019b8a.chunk.js": "/david-henry-portfolio/static/js/2.df019b8a.chunk.js",
+    "static/js/2.df019b8a.chunk.js.map": "/david-henry-portfolio/static/js/2.df019b8a.chunk.js.map",
     "static/js/3.b8323c0d.chunk.js": "/david-henry-portfolio/static/js/3.b8323c0d.chunk.js",
     "static/js/3.b8323c0d.chunk.js.map": "/david-henry-portfolio/static/js/3.b8323c0d.chunk.js.map",
     "index.html": "/david-henry-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/david-henry-portfolio/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.8ec2726f.chunk.css.map": "/david-henry-portfolio/static/css/main.8ec2726f.chunk.css.map",
-    "static/js/2.dd43e679.chunk.js.LICENSE.txt": "/david-henry-portfolio/static/js/2.dd43e679.chunk.js.LICENSE.txt",
+    "static/js/2.df019b8a.chunk.js.LICENSE.txt": "/david-henry-portfolio/static/js/2.df019b8a.chunk.js.LICENSE.txt",
     "static/media/acu-banner.b17a4a0f.png": "/david-henry-portfolio/static/media/acu-banner.b17a4a0f.png",
     "static/media/bootstrap-banner.6b0e63d3.png": "/david-henry-portfolio/static/media/bootstrap-banner.6b0e63d3.png",
     "static/media/burger-builder-build-page.bae45f4c.png": "/david-henry-portfolio/static/media/burger-builder-build-page.bae45f4c.png",
@@ -74,8 +74,8 @@
   "entrypoints": [
     "static/js/runtime-main.e7be2b60.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.dd43e679.chunk.js",
+    "static/js/2.df019b8a.chunk.js",
     "static/css/main.8ec2726f.chunk.css",
-    "static/js/main.4ec58d4f.chunk.js"
+    "static/js/main.d249942a.chunk.js"
   ]
 }
