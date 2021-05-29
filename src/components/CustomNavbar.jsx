@@ -9,15 +9,15 @@ function CustomNavbar(props) {
 
 			<Navbar.Toggle aria-controls="collapse-toggle" />
 
-			<Navbar.Brand href="/">David Henry</Navbar.Brand>
+			<Navbar.Brand href={process.env.PUBLIC_URL + "/"}>David Henry</Navbar.Brand>
 
 			<Navbar.Collapse sticky="top" id="collapse-toggle">
 
 				<Nav className="m-auto" activeKey={props.location.pathname}>
-					<Nav.Link href="/about" eventKey="/about">About</Nav.Link>
-					<Nav.Link href="/skills" eventKey="/skills">Skills</Nav.Link>
-					<Nav.Link href="/projects" eventKey="/projects">Projects</Nav.Link>
-					<Nav.Link href="/resume" eventKey="/resume">Resume</Nav.Link>
+					<Nav.Link href={process.env.PUBLIC_URL + "/about"} eventKey="/about">About</Nav.Link>
+					<Nav.Link href={process.env.PUBLIC_URL + "/skills"} eventKey="/skills">Skills</Nav.Link>
+					<Nav.Link href={process.env.PUBLIC_URL + "/projects"} eventKey="/projects">Projects</Nav.Link>
+					<Nav.Link href={process.env.PUBLIC_URL + "/resume"} eventKey="/resume">Resume</Nav.Link>
 				</Nav>
 
 				<Nav>

@@ -17,12 +17,12 @@ function App() {
 				<NavbarWithRouter />
 			<main>
 				<Switch>
-					<Route path='/about' render={(props) => <About {...props} />} />
-					<Route path='/skills' render={(props) => <Skills {...props} />} />
-					<Route path='/projects' render={(props) => <Projects {...props} />} />
-					<Route path='/resume' render={(props) => <Resume {...props} />} />
-					<Route path='/contact' render={(props) => <Contact {...props} />} />
-					<Route path='/' render={(props) => <Home {...props} />} />
+					<Route path={process.env.PUBLIC_URL + '/about'} render={(props) => <About {...props} />} />
+					<Route path={process.env.PUBLIC_URL + '/skills'} render={(props) => <Skills {...props} />} />
+					<Route path={process.env.PUBLIC_URL + '/projects'} render={(props) => <Projects {...props} />} />
+					<Route path={process.env.PUBLIC_URL + '/resume'} render={(props) => <Resume {...props} />} />
+					<Route path={process.env.PUBLIC_URL + '/contact'} render={(props) => <Contact {...props} />} />
+					<Route path={process.env.PUBLIC_URL + '/'} render={(props) => <Home {...props} />} />
 				</Switch>
 			</main>
 			<footer>
