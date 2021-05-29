@@ -119,8 +119,8 @@ function About(props) {
                             decided to try making an app.  It took a long time, and looking back, the code isn’t very pretty, but
                             eventually I was successful!  I learned enough of the Swift programming language and the XCode software
                             platform to create EduSchedule, a simple iPhone app to help students and teachers keep track of their crazy
-                            class schedules.  <a href="https://apps.apple.com/us/app/edu-schedule/id1486131627">You can find EduSchedule
-                            and check it out here!</a>
+                            class schedules.  <a href="https://apps.apple.com/us/app/edu-schedule/id1486131627" target="_blank" rel="noreferrer">
+                            You can find EduSchedule and check it out here!</a>
                         </p>
                     </Col>
                 </Row>
