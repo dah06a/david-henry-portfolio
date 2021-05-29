@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/david-henry-portfolio/static/css/main.f99124d7.chunk.css",
-    "main.js": "/david-henry-portfolio/static/js/main.05b91cd7.chunk.js",
-    "main.js.map": "/david-henry-portfolio/static/js/main.05b91cd7.chunk.js.map",
+    "main.js": "/david-henry-portfolio/static/js/main.dfc52dd5.chunk.js",
+    "main.js.map": "/david-henry-portfolio/static/js/main.dfc52dd5.chunk.js.map",
     "runtime-main.js": "/david-henry-portfolio/static/js/runtime-main.e7be2b60.js",
     "runtime-main.js.map": "/david-henry-portfolio/static/js/runtime-main.e7be2b60.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/david-henry-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -76,6 +76,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.dd43e679.chunk.js",
     "static/css/main.f99124d7.chunk.css",
-    "static/js/main.05b91cd7.chunk.js"
+    "static/js/main.dfc52dd5.chunk.js"
   ]
 }
