@@ -1,25 +1,30 @@
 .custom-navbar a {
-    width: 120px;
+    text-decoration: none;
+}
+
+.custom-navbar .bootstrap-link {
+    width: 8vw;
     font-size: large;
     font-weight: bold;
     color: cadetblue !important;
     box-shadow: 2px 1px 1px grey;
 }
 
-.custom-navbar a:hover {
+.custom-navbar .router-link {
+    color: inherit;
+}
+
+.custom-navbar .bootstrap-link:hover, .bootstrap-link.active {
     font-size: large;
     font-weight: bold;
     font-family: 'Architects Daughter';
-    background-color: whitesmoke;
+    text-decoration: underline;
     color: #233e8b !important;
+    background-color: whitesmoke;
     box-shadow: inset 5px 3px 3px grey;
 }
 
-.custom-navbar a.active {
-    font-size: large;
-    font-weight: bold;
-    font-family: 'Architects Daughter';
-    background-color: whitesmoke;
-    color: #233e8b !important;
-    box-shadow: inset 5px 3px 3px grey;
+.custom-navbar .router-link:hover, .router-link.active {
+    color: inherit;
+    text-decoration: inherit;
 }
