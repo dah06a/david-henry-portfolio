@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/david-henry-portfolio">
+    <HashRouter>
       <App />
     </HashRouter>
   </React.StrictMode>,
