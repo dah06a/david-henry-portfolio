@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap';
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import './CustomNavbar.css';
 
 const baseUrl = 'david-henry-portfolio#/';
@@ -12,19 +12,19 @@ function CustomNavbar(props) {
 
 			<Navbar.Toggle aria-controls="collapse-toggle" />
 
-			<Navbar.Brand href="/">David Henry</Navbar.Brand>
+			<Navbar.Brand><Link to="/">David Henry</Link></Navbar.Brand>
 
 			<Navbar.Collapse sticky="top" id="collapse-toggle">
 
 				<Nav className="m-auto" activeKey={props.location.pathname}>
-					<Nav.Link href="/about" eventKey="/about">About</Nav.Link>
-					<Nav.Link href="/skills" eventKey="/skills">Skills</Nav.Link>
-					<Nav.Link href="/projects" eventKey="/projects">Projects</Nav.Link>
-					<Nav.Link href="/resume" eventKey="/resume">Resume</Nav.Link>
+					<Link to="/about" eventKey="/about">About</Link>
+					<Link to="/skills" eventKey="/skills">Skills</Link>
+					<Link to="/projects" eventKey="/projects">Projects</Link>
+					<Link to="/resume" eventKey="/resume">Resume</Link>
 				</Nav>
 
 				<Nav>
-					<Nav.Link href="/contact" eventKey="/contact">Contact</Nav.Link>
+					<Link to="/contact" eventKey="/contact">Contact</Link>
 				</Nav>
 
 			</Navbar.Collapse>
