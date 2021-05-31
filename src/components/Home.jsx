@@ -4,19 +4,15 @@ import './Home.css';
 
 function Home(props) {
     return (
-        <>
-            <Container fluid className="home">
-                <Row className="h-100 align-content-center">
-                    <Col style={{color: 'black'}}>
-                        <h1><strong>Hello there, I'm David,</strong></h1>
-                        <h2>and I'm a <s>math teacher</s></h2>
-                        <h2>full stack developer.</h2>
-                    </Col>
-                    <Col className="d-none d-md-block" />
-                </Row>
-            </Container>
-            <Container fluid className="d-md-none mobile-portrait" />
-        </>
+        <Container fluid className="home">
+            <Row className="h-100">
+                <Col xs={7} sm={6} className="message">
+                    <h1 className="title"><strong>Hello there, I'm David</strong></h1>
+                    <h2 className="text">and I'm a <s>math teacher</s></h2>
+                    <h2 className="text">full stack developer</h2>
+                </Col>
+            </Row>
+        </Container>
     );
 }
 

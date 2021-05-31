@@ -3,14 +3,6 @@
     position: relative;
 }
 
-@media(max-width: 768px) {
-    .home {
-        height: 50vh;
-        background-image: url('../images/wall-only.jpg');
-        background-size: 180%;
-    }
-}
-
 .home::after {
     content:'';
     background-image: url('../images/wall-off-center-portrait.JPG');
@@ -24,20 +16,23 @@
     opacity: 0.9;
 }
 
-.mobile-portrait {
-    height: 100vh;
-    position: relative;
+.message {
+    align-self: center;
 }
 
-.mobile-portrait::after {
-    content:'';
-    background-image: url('../images/wall-off-center-portrait-cropped.jpg');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width:100%;
-    height:100%;
-    z-index:-1;
-    opacity: 0.9;
+@media(max-width: 768px) {
+    .home::after {
+        background-image: url("../images/wall-off-center-portrait-cropped.jpg");
+    }
+    .message {
+        align-self: flex-start;
+    }
+    .title {
+        font-size: 28px;
+        margin-top: 8vh;
+        margin-bottom: 10vh;
+    }
+    .text {
+        font-size: 16px;
+    }
 }
