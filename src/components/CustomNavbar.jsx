@@ -14,17 +14,16 @@ function CustomNavbar(props) {
 	return (
 		<Navbar collapseOnSelect expand="md" bg="light" sticky="top">
 
-			<Navbar.Toggle aria-controls="collapse-toggle" />
+			<Navbar.Toggle aria-controls="collapse" />
 
-			<Nav className="m-auto" activeKey={props.location.pathname}>
-				<Nav.Link eventKey="/" className="bootstrap-link" onClick={() => homeRef.current.click()}>
-					<Link replace ref={homeRef} to="/" className="router-link">David Henry</Link>
-				</Nav.Link>
-			</Nav>
+			<Navbar.Brand>David Henry</Navbar.Brand>
 
-			<Navbar.Collapse sticky="top" id="collapse-toggle">
+			<Navbar.Collapse id="collapse" className="justify-content-end">
 
-				<Nav className="m-auto" activeKey={props.location.pathname}>
+				<Nav activeKey={props.location.pathname} onSelect={() => window.scroll(0, 0)}>
+					<Nav.Link eventKey="/" className="bootstrap-link" onClick={() => homeRef.current.click()}>
+						<Link replace ref={homeRef} to="/" className="router-link">Home</Link>
+					</Nav.Link>
 					<Nav.Link eventKey="/about" className="bootstrap-link" onClick={() => aboutRef.current.click()}>
 						<Link replace ref={aboutRef} to="/about" className="router-link">About</Link>
 					</Nav.Link>
@@ -37,9 +36,6 @@ function CustomNavbar(props) {
 					<Nav.Link eventKey="/resume" className="bootstrap-link" onClick={() => resumeRef.current.click()}>
 						<Link replace ref={resumeRef} to="/resume" className="router-link">Resume</Link>
 					</Nav.Link>
-				</Nav>
-
-				<Nav activeKey={props.location.pathname}>
 					<Nav.Link eventKey="/contact" className="bootstrap-link" onClick={() => contactRef.current.click()}>
 						<Link replace ref={contactRef} to="/contact" className="router-link">Contact</Link>
 					</Nav.Link>

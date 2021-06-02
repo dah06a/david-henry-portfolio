@@ -1,18 +1,21 @@
+.custom-nav {
+    justify-self: center !important;
+}
+
 a {
     text-decoration: none;
 }
 
 .bootstrap-link {
-    width: 12vw;
+    width: 8vw;
     font-size: large;
-    font-weight: bold;
-    color: cadetblue !important;
-    box-shadow: 2px 1px 1px grey;
 }
 
 @media(max-width: 768px) {
     .bootstrap-link {
-        width: 35vw;
+        width: 30vw;
+        align-self: center;
+        padding-top: 20px;
     }
 }
 
@@ -21,12 +24,8 @@ a {
 }
 
 .bootstrap-link:hover, .bootstrap-link.active {
-    font-size: large;
     font-weight: bold;
-    font-family: 'Architects Daughter';
-    color: #233e8b !important;
-    background-color: whitesmoke;
-    box-shadow: inset 5px 3px 3px grey;
+    border-bottom: 3px solid #233e8b;
 }
 
 .router-link:hover, .router-link.active {
