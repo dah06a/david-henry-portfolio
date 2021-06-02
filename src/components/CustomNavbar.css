@@ -1,34 +1,29 @@
-.custom-nav {
-    justify-self: center !important;
-}
-
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    text-emphasis-color: inherit;
 }
 
-.bootstrap-link {
+.link {
     width: 8vw;
     font-size: large;
-}
-
-@media(max-width: 768px) {
-    .bootstrap-link {
-        width: 30vw;
-        align-self: center;
-        padding-top: 20px;
-    }
-}
-
-.router-link {
     color: inherit;
 }
 
-.bootstrap-link:hover, .bootstrap-link.active {
+.link:hover {
+    font-weight: bold;
+    border-bottom: 3px solid #233e8b;
+    color: inherit;
+}
+
+.link-active {
     font-weight: bold;
     border-bottom: 3px solid #233e8b;
 }
 
-.router-link:hover, .router-link.active {
-    color: inherit;
-    text-decoration: inherit;
+@media(max-width: 768px) {
+    .link {
+        width: 30vw;
+        align-self: center;
+        padding-top: 20px;
+    }
 }
