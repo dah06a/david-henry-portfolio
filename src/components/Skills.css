@@ -7,6 +7,37 @@
     background-image: linear-gradient(35deg, lightseagreen, #233e8b);
 }
 
+.skill-area {
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.nucamp-badge {
+    width: 150px;
+}
+
+.certificate {
+    width: 260px;
+    border: 1px solid grey;
+}
+
+@media (max-width: 768px) {
+    .certificate {
+        margin-bottom: 30px;
+    }
+}
+
+.icons {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
 .list-title-corner {
     width: 20%;
     border-left: none !important;
