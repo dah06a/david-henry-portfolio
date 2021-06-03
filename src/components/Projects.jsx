@@ -71,33 +71,32 @@ const Slides = (props) => {
 
 const ProjectCard = (props) => {
     return (
-        <a href={props.link} target="_blank" rel="noreferrer" className="projects-link">
-            <OverlayTrigger
-                key={`overlay-${props.title}`}
-                placement="top"
-                overlay={
-                    <Tooltip id={`tooltip-${props.title}`}>
-                        {props.tooltip}
-                    </Tooltip>
-                }
-            >
-                <Card className="projects-card">
-                    <Card.Header>
-                        <Card.Title>{props.title}</Card.Title>
-                    </Card.Header>
-                    <Card.Body className="p-0">
-                        <Slides carouselItems={props.carouselItems} />
-                        <Card.Text className="p-2 align-self-center">
-                            Focus: <strong>{props.focus}</strong>
-                        </Card.Text>
-                        <Card.Text>
-                            {props.extra}
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-
-            </OverlayTrigger>
-        </a>
+        <div>
+            <a href={props.link} target="_blank" rel="noreferrer" className="projects-link">
+                <OverlayTrigger
+                    key={`overlay-${props.title}`}
+                    placement="top"
+                    overlay={
+                        <Tooltip id={`tooltip-${props.title}`}>
+                            {props.tooltip}
+                        </Tooltip>
+                    }
+                >
+                    <Card className="projects-card">
+                        <Card.Header>
+                            <Card.Title>{props.title}</Card.Title>
+                        </Card.Header>
+                        <Card.Body className="p-0">
+                            <Slides carouselItems={props.carouselItems} />
+                            <Card.Text className="p-2 align-self-center">
+                                Focus: <strong>{props.focus}</strong>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </OverlayTrigger>
+            </a>
+            {props.extra}
+        </div>
     );
 }
 
