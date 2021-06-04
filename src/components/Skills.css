@@ -17,6 +17,7 @@
 
 .nucamp-badge {
     width: 150px;
+    border: 1px solid purple;
 }
 
 .certificate {
@@ -24,92 +25,9 @@
     border: 1px solid grey;
 }
 
-@media (max-width: 768px) {
-    .certificate {
-        margin-bottom: 30px;
-    }
-}
-
 .icons {
     width: 150px;
     height: 150px;
-}
-
-
-
-
-.list-title-corner {
-    width: 20%;
-    border-left: none !important;
-    border-top: none !important;
-    border-bottom: none !important;
-}
-
-.list-title-item {
-    width: 20%;
-}
-
-.list-header-item {
-    width: 20%;
-    color: white;
-    background-image: linear-gradient(35deg, lightseagreen, #233e8b);
-    font-weight: bold;
-}
-
-.list-content-title {
-    width: 20%;
-}
-
-.list-content-progress {
-    width: 80%;
-}
-
-.progress-bar {
-    color: black !important;
-    font-weight: bold;
-}
-
-.progress .bg-css {
-    background-color: deepskyblue;
-}
-
-.progress .bg-sass {
-    background-color: mediumorchid;
-}
-
-.progress .bg-bootstrap {
-    background-color: mediumpurple;
-}
-
-.progress .bg-javascript {
-    background-color: darkorange;
-}
-
-.progress .bg-jquery {
-    background-color: rgb(65, 152, 187);
-}
-
-.progress .bg-node {
-    background-color: darkgreen;
-}
-
-.progress .bg-react {
-    background-color: rgb(86, 170, 255);
-}
-.progress .bg-redux {
-    background-color: rgb(118, 74, 188)
-}
-
-.progress .bg-sql {
-    background-color: limegreen;
-}
-
-.progress .bg-node {
-    background-color: grey;
-}
-
-.progress .bg-mongoose {
-    background-color: rgb(165, 29, 29);
 }
 
 .carousel-images {
@@ -118,18 +36,8 @@
 }
 
 @media (max-width: 768px) {
-    .list-title-corner {
-        display: none !important;
-    }
-    .list-title-item {
-        display: none !important;
-    }
-    .list-header-item {
-        width: 40%;
-    }
-    .list-content-title {
-        width: 40%;
-        font-size: small;
+    .certificate {
+        margin-bottom: 30px;
     }
     .carousel-images {
         height: 20vh;
