@@ -1,18 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { Document, Page } from 'react-pdf';
-import ResumePDF from '../resume.pdf';
+import ResumeImg from '../images/resume.png';
 
 import './Resume.css';
 
 function Resume(props) {
-
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
 
     return (
         <Container fluid>
@@ -23,9 +15,7 @@ function Resume(props) {
             </Row>
             <Row>
                 <Col>
-                    <Document file={ResumePDF} onLoadSuccess={onDocumentLoadSuccess}>
-                        <Page pageIndex={pageNumber} />
-                    </Document>
+                    <Image src={ResumeImg} />
                 </Col>
             </Row>
         </Container>
