@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Button, Container, Row, Col, Image } from 'react-bootstrap';
 import { FadeTransform, Stagger } from 'react-animation-components'
 
 import ResumeTitle from '../images/resume-title.png';
@@ -35,6 +35,13 @@ function Resume(props) {
             <Row className="resume-title">
                 <Col className="align-self-center">
                     <h1>Résumé</h1>
+                    <Button
+                        href="https://drive.google.com/file/d/1h1oLH2BNXZCXkOWw7sKg5dYFkAvRqYF9/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
+                        variant="outline-dark"
+                        >PDF Version
+                    </Button>
                 </Col>
             </Row>
             <Row>
