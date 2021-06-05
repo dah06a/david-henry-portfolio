@@ -18,28 +18,29 @@ function Resume(props) {
             {resumeItems.map(item => (
                 <FadeTransform
                     in
+                    key={item}
                     transformProps={{
-                        enterTransform: 'translateX(100px)',
-                        exitTransform: 'translateX(-100px)'
+                        enterTransform: 'translateX(0%)',
+                        exitTransform: 'translateX(-2%)'
                     }}
                 >
-                    <Col>
-                        <Image src={item} className="resume-item" />
-                    </Col>
+                    <Image src={item} className="resume-item" />
                 </FadeTransform>
             ))}
         </Stagger>
     );
 
     return (
-        <Container fluid>
+        <Container fluid className="resume">
             <Row className="resume-title">
                 <Col className="align-self-center">
                     <h1>Résumé</h1>
                 </Col>
             </Row>
             <Row>
-                {resume}
+                <Col xs={12} lg={8} className="resume-column">
+                    {resume}
+                </Col>
             </Row>
         </Container>
     );
