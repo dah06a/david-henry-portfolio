@@ -2,7 +2,7 @@
   "name": "david-henry-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dah06a.github.io/david-henry-portfolio",
+  "homepage": "https://www.davidhenrydev.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
