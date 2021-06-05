@@ -19,7 +19,7 @@ function CustomNavbar(props) {
 					<NavLink to="/about" className="link" activeClassName="link-active" onClick={() => window.scroll(0, 0)}>About</NavLink>
 					<NavLink to="/skills" className="link" activeClassName="link-active" onClick={() => window.scroll(0, 0)}>Skills</NavLink>
 					<NavLink to="/projects" className="link" activeClassName="link-active" onClick={() => window.scroll(0, 0)}>Projects</NavLink>
-					<NavLink to="/resume" className="link" activeClassName="link-active" onClick={() => window.scroll(0, 0)}>Resume</NavLink>
+					<NavLink to="/resume" className="link" activeClassName="link-active" onClick={() => window.scroll(0, 0)}>Résumé</NavLink>
 					<NavLink to="/contact" className="link" activeClassName="link-active" onClick={() => window.scroll(0, 0)}>Contact</NavLink>
 				</Nav>
 
