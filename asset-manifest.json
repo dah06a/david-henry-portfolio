@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.2008392f.chunk.css",
-    "main.js": "/static/js/main.a7fd410c.chunk.js",
-    "main.js.map": "/static/js/main.a7fd410c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.59473cc8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.59473cc8.js.map",
+    "main.css": "/static/css/main.9cab819d.chunk.css",
+    "main.js": "/static/js/main.1e9dfd1f.chunk.js",
+    "main.js.map": "/static/js/main.1e9dfd1f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.826af1f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.826af1f6.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.784feb8a.chunk.js": "/static/js/2.784feb8a.chunk.js",
-    "static/js/2.784feb8a.chunk.js.map": "/static/js/2.784feb8a.chunk.js.map",
-    "static/js/3.b8323c0d.chunk.js": "/static/js/3.b8323c0d.chunk.js",
-    "static/js/3.b8323c0d.chunk.js.map": "/static/js/3.b8323c0d.chunk.js.map",
+    "static/js/2.ad48a9ec.chunk.js": "/static/js/2.ad48a9ec.chunk.js",
+    "static/js/2.ad48a9ec.chunk.js.map": "/static/js/2.ad48a9ec.chunk.js.map",
+    "static/js/3.96a288f3.chunk.js": "/static/js/3.96a288f3.chunk.js",
+    "static/js/3.96a288f3.chunk.js.map": "/static/js/3.96a288f3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2008392f.chunk.css.map": "/static/css/main.2008392f.chunk.css.map",
-    "static/js/2.784feb8a.chunk.js.LICENSE.txt": "/static/js/2.784feb8a.chunk.js.LICENSE.txt",
+    "static/css/main.9cab819d.chunk.css.map": "/static/css/main.9cab819d.chunk.css.map",
+    "static/js/2.ad48a9ec.chunk.js.LICENSE.txt": "/static/js/2.ad48a9ec.chunk.js.LICENSE.txt",
     "static/media/acu-banner.b17a4a0f.png": "/static/media/acu-banner.b17a4a0f.png",
     "static/media/backend-badge.b5729397.png": "/static/media/backend-badge.b5729397.png",
     "static/media/backend-certificate.9329c7ac.png": "/static/media/backend-certificate.9329c7ac.png",
@@ -71,6 +71,11 @@
     "static/media/react-native-banner.fcf1c08c.png": "/static/media/react-native-banner.fcf1c08c.png",
     "static/media/react-native-icon.77e555fe.png": "/static/media/react-native-icon.77e555fe.png",
     "static/media/redux-banner.84181bd9.jpg": "/static/media/redux-banner.84181bd9.jpg",
+    "static/media/resume-education.ad44abf5.png": "/static/media/resume-education.ad44abf5.png",
+    "static/media/resume-experience.a64580dc.png": "/static/media/resume-experience.a64580dc.png",
+    "static/media/resume-title.707b0e8f.png": "/static/media/resume-title.707b0e8f.png",
+    "static/media/resume-tools.a68a9db2.png": "/static/media/resume-tools.a68a9db2.png",
+    "static/media/resume-work.f4462a18.png": "/static/media/resume-work.f4462a18.png",
     "static/media/sass-banner.7d48603e.png": "/static/media/sass-banner.7d48603e.png",
     "static/media/server-get.4675e514.png": "/static/media/server-get.4675e514.png",
     "static/media/server-login.2fd7834c.png": "/static/media/server-login.2fd7834c.png",
@@ -91,10 +96,10 @@
     "static/media/Home.css": "/static/media/wall-off-center-portrait.31984d6f.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.59473cc8.js",
+    "static/js/runtime-main.826af1f6.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.784feb8a.chunk.js",
-    "static/css/main.2008392f.chunk.css",
-    "static/js/main.a7fd410c.chunk.js"
+    "static/js/2.ad48a9ec.chunk.js",
+    "static/css/main.9cab819d.chunk.css",
+    "static/js/main.1e9dfd1f.chunk.js"
   ]
 }
