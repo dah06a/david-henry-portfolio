@@ -53,7 +53,7 @@ class Skills extends Component {
         const progressInterval = setInterval(() => {
             if (this.state.progress < 15) this.setState({progress: this.state.progress+1});
             else clearInterval(progressInterval);
-        }, 300);
+        }, 100);
 
     }
 
