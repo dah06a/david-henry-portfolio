@@ -11,17 +11,17 @@
     align-items: center;
     background-color: whitesmoke;
     box-shadow: 5px 5px 5px grey;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding-bottom: 20px;
 }
 
 .nucamp-badge {
-    width: 150px;
+    width: 100px;
     border: 1px solid purple;
 }
 
 .certificate {
-    width: 260px;
+    width: 280px;
     border: 1px solid grey;
 }
 
@@ -36,6 +36,12 @@
 }
 
 @media (max-width: 768px) {
+    .skill-area {
+        width: 99%;
+        box-shadow: 0 0 12px grey;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
     .certificate {
         margin-bottom: 30px;
     }

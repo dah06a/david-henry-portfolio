@@ -87,17 +87,21 @@ class Skills extends Component {
                             <Row className="my-5">
                                 <Col xs={6}>
                                     <Image roundedCircle className="nucamp-badge" src={BootstrapBadge} />
+                                    <p>5-Wk Responsive Design Bootstrap</p>
                                 </Col>
                                 <Col xs={6}>
                                     <Image roundedCircle className="nucamp-badge" src={ReactBadge} />
+                                    <p>5-Wk Frontend React &amp; Redux </p>
                                 </Col>
                             </Row>
                             <Row className="my-5">
                                 <Col xs={6}>
                                     <Image roundedCircle className="nucamp-badge" src={ReactNativeBadge} />
+                                    <p>4-Wk React-Native Mobile Apps</p>
                                 </Col>
                                 <Col xs={6}>
                                     <Image roundedCircle className="nucamp-badge" src={BackendBadge} />
+                                    <p>4-Wk NodeJS, Express, &amp; MongoDB</p>
                                 </Col>
                             </Row>
                         </Col>

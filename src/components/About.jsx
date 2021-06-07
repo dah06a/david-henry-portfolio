@@ -19,7 +19,7 @@ function About(props) {
                         <h3 style={{color: "black", marginTop: "50px"}}>My mission is to learn, create, and change my future.</h3>
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">From Teaching to Coding</h4>
                         <p>
@@ -27,53 +27,48 @@ function About(props) {
                             I love to work with others and engage in meaningful learning and collaboration.  I also believe
                             strongly in the power of education, so I became a teacher.  I have successfully taught students for
                             almost 10 years now, most recently at the secondary level in the subjects of mathematics and science.
-                            I love to teach and work with others, but I have come to realize that my true passion is working with
-                            code.  I wish I had realized it a long time ago.
+                            But I also love coding and the challenges of solving problems in programming.  I have been immersed in
+                            working with code, learning the fundamentals of computer science, and general software development for
+                            nearly six years now.  I love to teach and work with students, but I have come to realize that my true
+                            passion is working with code.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={CodeBackdrop} className="about-images code-backdrop-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">It Began with a Dragon</h4>
                         <p>
                             When I was a kid, a friend of mine showed me some basic HTML on my home computer.  I was hooked.  The
                             idea that I could type a few words and make something appear on the screen captivated me.  I was pretty
-                            into dragons at the time, so I spent weeks working on a website all about dragons.  I was convinced that
+                            into dragons at the time, so I spent weeks working on a website all about them.  I was convinced that
                             it was supremely cool.  I never managed to put it online and I lost the files years ago, but I will never
-                            forget the feeling of amazement of typing in a few words of code and seeing a dragon appear on my screen.
+                            forget the feeling of pure amazement as my typing a few words of code became a dragon on the screen.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={HTMLCover} className="about-images html-cover-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Choosing a Different Path</h4>
                         <p>
                             During my undergraduate work at Abilene Christian University, I struggled to decide on a future path.  I
                             have always had a passion for math, science, and problem solving, and I eventually chose education,
-                            believing it to be a meaningful and fulfilling career that would allow me to continue all of those things.
+                            knowing it to be a meaningful and fulfilling career that would allow me to continue all of those things.
                             All the while, the people I spent the most time with, who would become my life-long friends, were all
                             majoring in physics, mathematics, and computer science.  I found myself finishing my course work early at
-                            times so I could spend time learning more about those subjects.  In hindsight, I probably should have
-                            taken a hint!
+                            times so I could spend time learning more about those subjects.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={ACUBanner} className="about-images acu-banner-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Circling Back</h4>
                         <p>
@@ -86,13 +81,11 @@ function About(props) {
                             JavaScript and Object-Oriented-programming and created many small games and visualizations.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <div className="about-images platform-images" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Certified in Computer Science</h4>
                         <p>
@@ -103,13 +96,11 @@ function About(props) {
                             content online and taught myself additional fundamentals in HTML and CSS with platforms like freecodecamp.org.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={TeacherCertificate} className="about-images teacher-certificate-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">My First App</h4>
                         <p>
@@ -123,46 +114,40 @@ function About(props) {
                             You can find EduSchedule and check it out here!</a>
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={EduSchedule} className="about-images edu-schedule-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Building in React</h4>
                         <p>
                             After making an App, I knew that I could go further and create more.  A developer friend of mine recommended
                             that I start learning React and wanted me to help build a front-end for a project.  That was when things
                             really started getting serious.  I spent the better part of a year learning the React framework and bringing
-                            all of my learning together all of my learning so far.  I was able to create an MVP for the project front-end,
-                            but everything came to halt during the pandemic.
+                            together all of my experiences so far.  I was able to create an MVP for the project front-end, but everything
+                            came to a halt during the pandemic.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={ReactBanner} className="about-images react-banner-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Time For a Bootcamp</h4>
                         <p>
-                            It was time to make a real attempt at changing my future.  During the pandemic, I decided to enroll in the
-                            NuCamp Full Stack Bootcamp.  I studied and worked to become proficient with many development tools like
-                            Node.js, Bootstrap, JQuery, React, React-Native, Express, MongoDB, Mongoose, and others.  I have since
-                            graduation, and I am finally ready to make the leap.
+                            It was time to make a real attempt at trying to change my future.  During the pandemic, I decided to enroll in the
+                            NuCamp Full Stack Boot camp.  I studied and worked hard to become proficient with many development tools like
+                            Node JS, Bootstrap, JQuery, React, React-Native, Express, MongoDB, Mongoose, and others.  I have since
+                            graduated, and I am finally ready to make the leap.
                         </p>
                     </Col>
-                </Row>
-                <Row>
                     <Col md={8} className="m-auto">
                         <Image src={Nucamp} className="about-images nucamp-img" />
                     </Col>
                 </Row>
-                <Row className="my-3">
+                <Row className="about-section">
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">Ready To Work</h4>
                         <p>
