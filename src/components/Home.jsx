@@ -9,7 +9,7 @@ function Home(props) {
                 <Col xs={7} sm={6} className="message">
                     <h1 className="title"><strong>Hello there, I'm David</strong></h1>
                     <h2 className="text">and I'm a <s>math teacher</s></h2>
-                    <h2 className="text">full stack developer</h2>
+                    <h2 className="text">software developer</h2>
                 </Col>
             </Row>
         </Container>

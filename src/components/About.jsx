@@ -23,11 +23,10 @@ function About(props) {
                     <Col md={8} className="m-auto">
                         <h4 className="text-center">From Teaching to Coding</h4>
                         <p>
-                            It's been a long journey, but I'm changing careers, from secondary math/science teacher to developer.
-                            I love to work with others and engage in meaningful learning and collaboration.  I also believe
-                            strongly in the power of education, so I became a teacher.  I have successfully taught students for
-                            almost 10 years now, most recently at the secondary level in the subjects of mathematics and science.
-                            But I also love coding and the challenges of solving problems in programming.  I have been immersed in
+                            I love to learn and engage with others in meaningful collaboration.  I also strongly believe in the power of
+                            education, and I have a passion for learning - so I initially became a teacher.  I have successfully taught
+                            students for almost 10 years now, most recently at the secondary level in the subjects of mathematics and
+                            science.  But I also love coding and the challenges of solving problems in programming.  I have been immersed in
                             working with code, learning the fundamentals of computer science, and general software development for
                             nearly six years now.  I love to teach and work with students, but I have come to realize that my true
                             passion is working with code.

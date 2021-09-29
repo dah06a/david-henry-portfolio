@@ -31,8 +31,6 @@ import ReduxIcon from '../images/redux-icon.png';
 import ReactNativeBanner from '../images/react-native-banner.png';
 import ReactNativeIcon from '../images/react-native-icon.png';
 
-import SqlBanner from '../images/sql-banner.png';
-import SqlIcon from '../images/sql-icon.png';
 import NodeBanner from '../images/node-banner.jpg';
 import NodeIcon from '../images/node-icon.png';
 import MongodbBanner from '../images/mongodb-banner.png';
@@ -191,10 +189,6 @@ class Skills extends Component {
                             <Image roundedCircle src={MongooseIcon} className="icons" style={{border: "1px solid lightgrey"}} />
                             <h5>Mongoose</h5>
                         </Col>
-                        <Col md={2}>
-                            <Image roundedCircle src={SqlIcon} className="icons" style={{border: "1px solid lightgrey"}} />
-                            <h5>SQL</h5>
-                        </Col>
                     </Row>
                     <Row className="skill-area">
                         <Col xs={12} className="mt-5 align-self-center">
@@ -241,9 +235,6 @@ class Skills extends Component {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <Image className="carousel-images" src={MongooseBanner} alt="Mongoose Banner Image" />
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <Image className="carousel-images" src={SqlBanner} alt="SQL Banner Image" />
                                 </Carousel.Item>
                             </Carousel>
                         </Col>
