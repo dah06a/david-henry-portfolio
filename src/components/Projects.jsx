@@ -11,10 +11,14 @@ import NuCampDirectory from '../images/nucamp-directory.png';
 import NuCampComments from '../images/nucamp-comments.png';
 import NuCampContact from '../images/nucamp-contact.png';
 
-import TeamsHome from '../images/teams-home-edit.png';
-import TeamsAdd from '../images/teams-slide-add.png';
-import TeamsOptions from '../images/teams-options-2.png';
-import Teams4 from '../images/teams-4-5.png';
+import FairTeamsGoogleStore from '../images/fair-teams-google-store.png';
+import FairTeamsBeforeSort from '../images/fair-teams-before-sort.png';
+import FairTeamsAddMember from '../images/fair-teams-add-member.png';
+import FairTeamsPersonalGroups from '../images/fair-teams-personal-groups.png';
+
+import PaintHome from '../images/paint-home.png';
+import PaintMenu from '../images/paint-menu.png';
+import PaintTools from '../images/paint-tools.png';
 
 import ServerGet from '../images/server-get.png';
 import ServerLogin from '../images/server-login.png';
@@ -34,11 +38,9 @@ import BurgerLogin from '../images/burger-builder-login.png';
 import BurgerBuild from '../images/burger-builder-build-page.png';
 import BurgerOrders from '../images/burger-builder-orders.png';
 
-import Meme1 from '../images/meme-1.png';
-import Meme2 from '../images/meme-2.png';
-
-import Squad1 from '../images/super-squad-1.png';
-import Squad2 from '../images/super-squad-2.png';
+import BlogAllArticles from '../images/blog-all-articles.png';
+import BlogExampleArticle from '../images/blog-example-article.png';
+import BlogNewArticle from '../images/blog-new-article.png';
 
 import KhanBlocks from '../images/khan-blocks.png';
 import KhanSnake from '../images/khan-snake.png';
@@ -103,11 +105,65 @@ const ProjectCard = (props) => {
 function Projects(props) {
     return (
         <Container fluid className="projects">
+
             <Row className="projects-title">
                 <Col className="align-self-center">
                     <h1>Projects</h1>
                 </Col>
             </Row>
+
+            <Row>
+                <Col className="mx-4 mt-5">
+                    <h2 className="projects-header">Personal Projects</h2>
+                </Col>
+            </Row>
+            <Row className="m-2">
+                <Col sm={6} lg={4} className="my-3">
+                    <ProjectCard
+                        link="https://play.google.com/store/apps/details?id=com.dah06a.fairteams"
+                        title="Fair Teams"
+                        carouselItems={[FairTeamsGoogleStore, FairTeamsBeforeSort, FairTeamsAddMember, FairTeamsPersonalGroups]}
+                        focus="React-Native &amp; Expo"
+                        tooltip="The project was a journey in learning React-Native development for multi-platform web apps.
+                        The project used various integrated libraries such as React Navigation, React Native Elements, and Lottie among others.
+                        It allows users to create groups and then sort them into fair, balanced teams - useful for all kinds of situations!"
+                    />
+                </Col>
+                <Col sm={6} lg={4} className="my-3">
+                    <ProjectCard
+                        link="https://dah06a.github.io/bob-ross-paint-app/"
+                        title="Bob Ross Paint App"
+                        carouselItems={[PaintHome, PaintMenu, PaintTools]}
+                        focus="React Hooks &amp; Bootstrap 5"
+                        tooltip="This project was created for the mintbean Hiring Hackathon in November of 2021.
+                        The app was designed with React and Bootstrap 5.1 and has been deployed with GitHub pages.
+                        It also uses some external dependencies like react-colorful and body-scroll-lock with NPM."
+                    />
+                </Col>
+                <Col sm={6} lg={4} className="my-3">
+                    <ProjectCard
+                        link="https://github.com/dah06a/student-sorter-app"
+                        title="Student Sorter"
+                        carouselItems={[StudentLogin, StudentSettings, StudentOptions, StudentSchedule]}
+                        focus="React, Redux, &amp; Firebase"
+                        tooltip="My first attempt at a real React project on my own.  This frontend was designed for
+                        organizations trying to organize students. It guides users through a process of setting options,
+                        creating schedules, and adding students and work can be saved and edited later with firebase."
+                    />
+                </Col>
+                <Col sm={6} lg={4} className="my-3">
+                    <ProjectCard
+                        link="https://eduschedule.wordpress.com/"
+                        title="Edu Schedule"
+                        carouselItems={[EduIcon, EduEdit, EduHome, EduBanner]}
+                        focus="Swift &amp; Xcode"
+                        tooltip="As a teacher, I often had confusing schedules.  I wanted a way to quickly see how much
+                        time I had in any given class.  So, I made an app to do it for me! This was my first experience
+                        making an App, using Swift, and working with the Xcode platform for iPhone development."
+                    />
+                </Col>
+            </Row>
+
             <Row>
                 <Col className="mx-4">
                     <h2 className="projects-header">Bootcamp Work</h2>
@@ -119,7 +175,7 @@ function Projects(props) {
                         link="https://github.com/dah06a/cafe-project-react-version"
                         title="Tabletop Cafe"
                         carouselItems={[CafeHome, CafeGames, CafeMenu, CafeReserve]}
-                        focus="React, Bootstrap, &amp; API's"
+                        focus="React, Bootstrap, &amp; API Fetch"
                         tooltip="A website designed for a fictitious tabletop gaming cafe! This project demonstrates a sleek,
                         responsive design using React and Bootstrap.  It also uses an API fetch request to create a list of
                         games for the user to reserve."
@@ -139,61 +195,33 @@ function Projects(props) {
                 <Col sm={6} lg={4} className="my-3">
                     <ProjectCard
                         link="https://github.com/dah06a/random-teams-project"
-                        title="Random Teams App"
-                        carouselItems={[TeamsHome, TeamsAdd, TeamsOptions, Teams4]}
-                        focus="React Native &amp; Expo"
-                        tooltip="A mobile app to help friends decide on teams. This app arranges a group of friends
-                        into randomly sorted teams while keeping them fair. There are options for how many teams and
-                        whether or not they need the same number of people."
-                    />
-                </Col>
-                <Col sm={6} lg={4} className="my-3">
-                    <ProjectCard
-                        link="https://github.com/dah06a/random-teams-project"
                         title="NuCamp Server"
                         carouselItems={[ServerGet, ServerLogin, ServerRunning]}
-                        focus="Express &amp; MongoDB"
+                        focus="Node Express &amp; MongoDB"
                         tooltip="This Node.js Express server uses MongoDB and Mongoose to provide resources for the
                         NuCamp Website mentioned above.  The local server project was tested throughout development
                         using PostMan and provided me a lot of backend experience."
                     />
                 </Col>
             </Row>
-            <Row>
-                <Col className="mx-4 mt-5">
-                    <h2 className="projects-header">Personal Projects</h2>
-                </Col>
-            </Row>
-            <Row className="m-2">
-                <Col sm={6} lg={4} className="my-3">
-                    <ProjectCard
-                        link="https://github.com/dah06a/student-sorter-app"
-                        title="Student Sorter"
-                        carouselItems={[StudentLogin, StudentSettings, StudentOptions, StudentSchedule]}
-                        focus="React &amp; Firebase"
-                        tooltip="My first attempt at a real React project on my own.  This frontend was designed for
-                        organizations trying to organize students. It guides users through a process of setting options,
-                        creating schedules, and adding students and work can be saved and edited later with firebase."
-                    />
-                </Col>
-                <Col sm={6} lg={4} className="my-3">
-                    <ProjectCard
-                        link="https://eduschedule.wordpress.com/"
-                        title="Edu Schedule"
-                        carouselItems={[EduIcon, EduEdit, EduHome, EduBanner]}
-                        focus="Swift &amp; Xcode"
-                        tooltip="As a teacher, I often had confusing schedules.  I wanted a way to quickly see how much
-                        time I had in any given class.  So, I made an app to do it for me! This was my first experience
-                        making an App, using Swift, and working with the Xcode platform for iPhone development."
-                    />
-                </Col>
-            </Row>
+
             <Row>
                 <Col className="mx-4 mt-5">
                     <h2 className="projects-header">Tutorials</h2>
                 </Col>
             </Row>
             <Row className="m-2">
+            <Col sm={6} lg={4} className="my-3">
+                    <ProjectCard
+                        link="https://github.com/dah06a/markdown-blog"
+                        title="Markdown Blog"
+                        carouselItems={[BlogAllArticles, BlogExampleArticle, BlogNewArticle]}
+                        focus="MongoDB, Mongoose, &amp; EJS"
+                        tooltip="This project used Node.js, Express, MongoDB, Mongoose, and EJS to create a full-stack basic blog site.
+                        It allows a user to add blog entries using markdown.
+                        This was completed as a tutorial for individual learning from the Web Dev Simplified channel."
+                    />
+                </Col>
                 <Col sm={6} lg={4} className="my-3">
                     <ProjectCard
                         link="https://github.com/dah06a/burger-builder"
@@ -203,27 +231,6 @@ function Projects(props) {
                         tooltip="Using Udemy, I followed along with a full course on React and learned a lot. This project
                         was the main tutorial used to teach. It is a simple application designed to allow users to sign up
                         create a personalized burger, order it, and maintain records of their purchases."
-                    />
-                </Col>
-                <Col sm={6} lg={4} className="my-3">
-                    <ProjectCard
-                        link="https://github.com/dah06a/meme-generator-tutorial"
-                        title="Meme Generator"
-                        carouselItems={[Meme1, Meme2]}
-                        focus="React, &amp; Redux"
-                        tooltip="This small tutorial project fetches memes from a web API, and then allows users to customize
-                        the meme.  By typing in some text and selecting a desired meme, you too can make your friends laugh
-                        and earn those sweet internet points!"
-                    />
-                </Col>
-                <Col sm={6} lg={4} className="my-3">
-                    <ProjectCard
-                        link="https://github.com/dah06a/super-squad-tutorial"
-                        title="Super Squad"
-                        carouselItems={[Squad1, Squad2]}
-                        focus="React, &amp; Redux"
-                        tooltip="Another short tutorial project that taught me some of the basics of React and Redux. It
-                        lets you create your own super hero team.  Pick your heroes and create your very own dream team."
                     />
                 </Col>
             </Row>
