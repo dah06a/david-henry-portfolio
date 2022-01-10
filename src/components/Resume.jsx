@@ -36,14 +36,31 @@ function Resume(props) {
         <Container fluid className="resume">
             <Row className="resume-title">
                 <Col className="align-self-center">
-                    <h1>Résumé</h1>
-                    <Button
-                        href="https://drive.google.com/file/d/1x_u5ZAzrkQp09ezAgKQBk4-ArS67H4x7/view?usp=sharing"
-                        target="_blank"
-                        rel="noreferrer"
-                        variant="outline-dark"
-                        >PDF Version
-                    </Button>
+                    <Row>
+                        <Col>
+                            <h1>Résumé</h1>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Button
+                                href="https://drive.google.com/file/d/1x_u5ZAzrkQp09ezAgKQBk4-ArS67H4x7/view?usp=sharing"
+                                target="_blank"
+                                rel="noreferrer"
+                                variant="outline-dark"
+                                size='lg'
+                                >Résumé PDF
+                            </Button>
+                            <Button
+                                href="https://drive.google.com/file/d/1PGSanNGw7PxXgKEqSRAmY6tsmcW8j8f0/view?usp=sharing"
+                                target="_blank"
+                                rel="noreferrer"
+                                variant="outline-dark"
+                                size='lg'
+                                >Cover Letter
+                            </Button>
+                        </Col>
+                    </Row>
                 </Col>
             </Row>
             <Row>
